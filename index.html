@@ -12,6 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/task-list.css" rel="stylesheet">
 </head>
@@ -23,14 +32,16 @@
 
         <div class="formContener">
             <p class="formContener__description">Add new task</p>
-            <form>
-                <input class="formContener__inputField" name="newTask">
-                <button class="formContener__button">Add Task</button>
+            <div class="formContener__line"></div>
+            <form class="form">
+                <input class="form__inputField" name="newTask" placeholder=" Enter your task here">
+                <button class="form__button">Add Task</button>
             </form>
         </div>
 
         <div class="taskContener">
             <p class="taskContener__description">Tasks list</p>
+            <div class="taskContener__line"></div>
             <ul class="taskContener__list"></ul>
         </div>
     </section>
