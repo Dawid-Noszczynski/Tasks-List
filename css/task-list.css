@@ -90,4 +90,6 @@
     background-color: red;
 }
 
- 
+.taskContener__button--done{
+    background-color: green;
+}
