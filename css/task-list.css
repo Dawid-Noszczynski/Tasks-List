@@ -80,6 +80,20 @@
     margin: 20px 10px;
     padding-left: 0px;
     min-height: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+
+.taskContener__listItem{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 16fr 1fr;
+    grid-gap: 10px;
+    min-height: 35px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(222, 221, 221);
 }
 
 .taskContener__listItem--done{
@@ -91,5 +105,5 @@
 }
 
 .taskContener__button--done{
-    background-color: green;
+    background-color: rgb(24, 196, 24);
 }
