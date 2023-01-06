@@ -85,3 +85,9 @@
 .taskContener__listItem--done{
     text-decoration: line-through;
 }
+
+.taskContener__button{
+    background-color: red;
+}
+
+ 
