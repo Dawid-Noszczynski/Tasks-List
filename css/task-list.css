@@ -82,28 +82,31 @@
     min-height: 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:10px;
+    grid-gap: 10px;
 }
 
-.taskContener__listItem{
+.taskContener__listItem {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 16fr 1fr;
     grid-gap: 10px;
-    min-height: 35px;
+    min-height: 70px;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid rgb(222, 221, 221);
 }
 
-.taskContener__listItem--done{
+.taskContener__listItem--done {
     text-decoration: line-through;
 }
 
-.taskContener__button{
+.taskContener__button {
     background-color: red;
+    width: 40px;
+    height: 40px;
+    border: none;
 }
 
-.taskContener__button--done{
-    background-color: rgb(24, 196, 24);
+.taskContener__button--done {
+    background-color: rgb(22, 161, 22);
 }
