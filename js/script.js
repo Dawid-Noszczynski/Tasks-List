@@ -1,13 +1,6 @@
 {
     const tasks = [
-        {
-            content: "task 1",
-            done: false,
-        },
-        {
-            content: "task 2",
-            done: true,
-        },
+
     ];
 
     const addNewTask = (newTaskContent) => {
@@ -77,8 +70,6 @@
     };
 
     const init = () => {
-
-        render();
 
         const formElement = document.querySelector(".js-form");
 
