@@ -81,3 +81,7 @@
     padding-left: 0px;
     min-height: 20px;
 }
+
+.taskContener__listItem--done{
+    text-decoration: line-through;
+}
