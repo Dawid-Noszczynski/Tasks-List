@@ -1,4 +1,4 @@
-# Simple Task List
+# Simple To Do List
 
 ## Demo
 [Task List Demo](https://dawid-noszczynski.github.io/Tasks-List/)
@@ -7,9 +7,9 @@
 
 ## Description:
 
-This is a simple task list. 
+This is a simple to do list. 
 
-This task list allows adding new tasks, mark it as done and delete it. 
+This to do list allows adding new tasks, mark it as done and delete it. 
 I built it as part of my frontend developer course.
 
 ## Technologies used in the project: 
