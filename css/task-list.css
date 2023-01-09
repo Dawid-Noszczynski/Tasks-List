@@ -59,9 +59,9 @@
     border: none;
 }
 
-.form__button:hover{
+.form__button:hover {
     background-color: rgb(1, 86, 86);
-} 
+}
 
 .taskContener {
     padding: 10px;
@@ -100,7 +100,7 @@
     border-bottom: 1px solid rgb(222, 221, 221);
 }
 
-.taskContener__task{
+.taskContener__task {
     font-weight: 300;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .taskContener__button {
-    background-color: red;
+    background-color: rgb(247, 81, 81);
     width: 40px;
     height: 40px;
     border: none;
@@ -117,5 +117,4 @@
 
 .taskContener__button--done {
     background-color: rgb(22, 161, 22);
-    color: #fff;
 }
