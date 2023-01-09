@@ -44,9 +44,9 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li class="taskContener__listItem ${task.done ? "taskContener__listItem--done" : ""}">
-            <button class="taskContener__button taskContener__button--done js-done"></button>
-            ${task.content}
+            <li class="taskContener__listItem">
+            <button class="taskContener__button taskContener__button--done js-done"> ${task.done ? "✔️" : ""} </button>
+            <span class="taskContener__task ${task.done ? "taskContener__task--done" : ""}"> ${task.content} </span>
             <button class="taskContener__button js-remove">🗑</button>
             </li>
             `;
@@ -67,6 +67,9 @@
         }
 
         addNewTask(newTaskContent);
+
+        document.querySelector(".js-inputField").value = "";
+
     };
 
     const init = () => {
