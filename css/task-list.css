@@ -41,7 +41,7 @@
 }
 
 @media (max-width:767px) {
-    .form {
+    .formContener__form {
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: 50px;
