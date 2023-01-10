@@ -34,24 +34,28 @@
 
 <body class="body">
 
-    <section class="taskListContener">
-        <h1 class="taskListContener__header">To-do-list</h1>
+    <main class="taskListContener">
 
-        <div class="formContener">
-            <p class="formContener__description">Add new task</p>
+        <section class="header">
+            <h1 class="header__mainHeader">To-do-list</h1>
+        </section>
+
+        <section class="formContener">
+            <h2 class="formContener__header">Add new task</h2>
             <div class="formContener__line"></div>
-            <form class="form js-form">
-                <input class="form__inputField js-inputField" name="newTask" placeholder=" Enter your task here">
-                <button class="form__button">Add Task</button>
+            <form class="formContener__form js-form">
+                <input class="formContener__inputField js-inputField" name="newTask" placeholder=" Enter your task here">
+                <button class="formContener__button">Add Task</button>
             </form>
-        </div>
+        </section>
 
-        <div class="taskContener">
-            <p class="taskContener__description">To-do-list</p>
+        <section class="taskContener">
+            <h2 class="taskContener__header">To-do-list</h2>
             <div class="taskContener__line"></div>
             <ul class="taskContener__list js-tasksList"></ul>
-        </div>
-    </section>
+        </section>
+
+    </main>
 
 </body>
 

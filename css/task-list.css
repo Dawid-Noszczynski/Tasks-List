@@ -12,17 +12,17 @@
     }
 }
 
-.taskListContener__header {
+.header__mainHeader {
     font-size: 36px;
+    margin: 10px;
 }
 
 .formContener {
-    padding: 10px;
     background-color: #fff;
     border: 1px solid rgb(222, 221, 221);
 }
 
-.formContener__description {
+.formContener__header {
     font-size: 20px;
     margin: 20px 10px;
     font-weight: bold;
@@ -32,7 +32,7 @@
     border-bottom: 1px solid rgb(222, 221, 221);
 }
 
-.form {
+.formContener__form {
     margin: 20px 10px;
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -48,28 +48,27 @@
     }
 }
 
-.form__inputField {
+.formContener__inputField {
     border: 1px solid rgb(222, 221, 221);
 }
 
-.form__button {
+.formContener__button {
     background-color: teal;
     color: #fff;
     font-weight: 300;
     border: none;
 }
 
-.form__button:hover {
+.formContener__button:hover {
     background-color: rgb(1, 86, 86);
 }
 
 .taskContener {
-    padding: 10px;
     background-color: #fff;
     border: 1px solid rgb(222, 221, 221);
 }
 
-.taskContener__description {
+.taskContener__header {
     font-size: 20px;
     margin: 20px 10px;
     font-weight: bold;
