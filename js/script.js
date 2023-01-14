@@ -31,6 +31,15 @@
         render();
     };
 
+    const toggleAlldone = () => {
+        tasks = tasks.map((task) => ({
+            ...task,
+            done: true,
+        }));
+
+        render();
+    };
+
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
 
@@ -47,6 +56,14 @@
                 toggleTaskDone(index);
             });
         });
+
+        const allDoneButton = document.querySelector(".js-allDoneButton");
+
+        if (allDoneButton) {
+            allDoneButton.addEventListener("click", () => {
+                toggleAlldone();
+            });
+        };
     };
 
     const renderTasks = () => {
@@ -71,7 +88,7 @@
 
         if (tasksLength > 0) {
             hideAllDoneButtonString = `
-                <button>Hide all done tasks </button>
+                <button class="js-hideShowButton">Hide all done tasks </button>
             `
         }
 
@@ -81,7 +98,7 @@
 
         if (tasksLength > 0) {
             makrAllDoneString = `
-                <button>Mark all done</button>
+                <button class="js-allDoneButton">Mark all done</button>
             `
         }
 
