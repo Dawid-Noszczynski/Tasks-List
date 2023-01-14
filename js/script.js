@@ -102,7 +102,7 @@
 
         if (tasksLength > 0) {
             hideAllDoneButtonString = `
-                <button class="js-hideShowButton"> ${hideDoneTask && tasks.some(({done}) => done) ? "Show" : "Hide"} all done tasks </button>
+                <button class="js-hideShowButton"> ${hideDoneTask && tasks.some(({ done }) => done) ? "Show" : "Hide"} all done tasks </button>
             `
         }
 
