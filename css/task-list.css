@@ -105,6 +105,10 @@
     border-bottom: 1px solid rgb(222, 221, 221);
 }
 
+.taskContener__listItem--hidden {
+    display: none;
+}
+
 .taskContener__task {
     font-weight: 300;
 }
