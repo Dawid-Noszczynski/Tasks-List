@@ -68,6 +68,12 @@
     border: 1px solid rgb(222, 221, 221);
 }
 
+.taskContener__headerButtons {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 15px;
+}
+
 .taskContener__header {
     font-size: 20px;
     margin: 20px 10px;
@@ -114,7 +120,7 @@
     border: none;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .taskContener__button--done {
