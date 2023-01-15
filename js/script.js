@@ -112,7 +112,7 @@
 
         if (tasksLength > 0) {
             makrAllDoneString = `
-                <button class="taskContener__headerButton js-allDoneButton">Mark all done</button>
+                <button class="js-allDoneButton taskContener__headerButton"${tasks.every(({done}) => done) ? "disabled" : ""}>Mark all done</button>
             `
         }
 

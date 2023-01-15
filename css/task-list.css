@@ -86,7 +86,7 @@
         justify-items: center;
     }
 
-    .taskContener__header{
+    .taskContener__header {
         justify-self: start;
     }
 }
@@ -100,11 +100,15 @@
 }
 
 .taskContener__headerButton:hover {
-    color: hsl(180, 100%, 40%);   
+    color: hsl(180, 100%, 40%);
 }
 
-.taskContener__headerButton:active{
+.taskContener__headerButton:active {
     border: 2px solid #000;
+}
+
+.taskContener__headerButton:disabled {
+    color: grey;
 }
 
 .taskContener__header {
