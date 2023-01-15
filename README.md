@@ -24,3 +24,4 @@ I built it as part of my frontend developer course.
 1.  Write your task 
 2. Click the "Add task" button 
 3. Mark your task as done or delete it. 
+4. Mark all task done or hide/show done task
