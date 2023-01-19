@@ -1,7 +1,7 @@
 # Simple To Do List
 
 ## Demo
-[To do list Demo](https://dawid-noszczynski.github.io/To-Do-List/)
+[To do list Demo](https://dawid-noszczynski.github.io/task-list/)
 
 ![Demo Gif](https://drive.google.com/uc?export=download&id=1jq3_SNcXKdgblo3Y4o_T7i7FF0Ka4IsJ)
 
