@@ -105,21 +105,11 @@
         if (tasksLength > 0) {
             hideAllDoneButtonString = `
                 <button class="taskContener__headerButton js-hideShowButton"> ${hideDoneTask && tasks.some(({ done }) => done) ? "Show" : "Hide"} all done tasks </button>
-            `
-        }
-
-        document.querySelector(".js-hideAllTasks").innerHTML = hideAllDoneButtonString;
-
-        let makrAllDoneString = "";
-
-        if (tasksLength > 0) {
-            makrAllDoneString = `
                 <button class="js-allDoneButton taskContener__headerButton"${tasks.every(({ done }) => done) ? "disabled" : ""}>Mark all done</button>
-            `
+            `               
         }
 
-        document.querySelector(".js-markAlldone").innerHTML = makrAllDoneString;
-
+        document.querySelector(".js-buttons").innerHTML = hideAllDoneButtonString;
     };
 
     const render = () => {
