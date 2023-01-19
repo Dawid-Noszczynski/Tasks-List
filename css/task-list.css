@@ -24,8 +24,9 @@
 
 .formContener__header {
     font-size: 20px;
-    margin: 20px 10px;
+    padding: 20px;
     font-weight: bold;
+    margin: 0px;
 }
 
 .formContener__line {
@@ -33,7 +34,7 @@
 }
 
 .formContener__form {
-    margin: 20px 10px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-gap: 15px;
@@ -50,6 +51,7 @@
 
 .formContener__inputField {
     border: 1px solid rgb(222, 221, 221);
+    padding-left: 10px;
 }
 
 .formContener__button {
@@ -109,12 +111,20 @@
 
 .taskContener__headerButton:disabled {
     color: grey;
+    border: none;
 }
 
 .taskContener__header {
     font-size: 20px;
-    margin: 20px 10px;
+    padding: 20px;
+    margin: 0px;
     font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .taskContener__header {
+        padding: 5px;
+    }
 }
 
 .taskContener__line {
@@ -136,7 +146,7 @@
     display: grid;
     grid-template-columns: 1fr 16fr 1fr;
     grid-gap: 10px;
-    min-height: 70px;
+    min-height: 25px;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid rgb(222, 221, 221);
